@@ -1,10 +1,10 @@
 package com.otienosamwel.plugins
 
 import com.otienosamwel.chat.configureChat
-import io.ktor.application.*
 import io.ktor.http.cio.websocket.*
-import io.ktor.routing.*
-import io.ktor.websocket.*
+import io.ktor.server.application.*
+import io.ktor.server.routing.*
+import io.ktor.server.websocket.*
 import java.time.Duration
 
 fun Application.configureSockets() {
