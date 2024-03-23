@@ -3,3 +3,7 @@
 A simple websocket server built with Ktor-server.
 <br><br>
 Check out the ktor documentation for more info: [ktor websockets](https://ktor.io/docs/servers/features/websockets.html)
+
+
+## Features to add
+Key verification for creating and joining group chats
